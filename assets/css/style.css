@@ -680,8 +680,10 @@ section {
 }
 
 #portfolio .portfolio-item .portfolio-info .preview-link,
-#portfolio .portfolio-item .portfolio-info .details-link {
-  position: static;
+#portfolio .portfolio-item .portfolio-info .details-link,
+#portfolio .portfolio-item .portfolio-info .details-link2 {
+
+  position: absolute;
   right: 48px;
   font-size: 28px;
   top: calc(50% - 28px);
@@ -689,17 +691,27 @@ section {
 }
 
 #portfolio .portfolio-item .portfolio-info .preview-link:hover,
-#portfolio .portfolio-item .portfolio-info .details-link:hover {
+#portfolio .portfolio-item .portfolio-info .details-link:hover,
+#portfolio .portfolio-item .portfolio-info .details-link2:hover {
   color: #741ddf;
 }
 
 #portfolio .portfolio-item .portfolio-info .details-link {
   right: 15px;
 }
+#portfolio .portfolio-item .portfolio-info .details-link2 {
+  right: 80px;
+}
 
 #portfolio .portfolio-item:hover .portfolio-info {
 
   opacity: 1;
+}
+
+#portfolio .clase360:hover {
+
+  max-width: 10px;
+
 }
 
 /*--------------------------------------------------------------
@@ -767,6 +779,20 @@ section {
   padding: 0;
 }
 
+html.a-fullscreen .a-canvas {
+  width: 60% !important;
+  height: 60% !important;
+  top: 10% !important;
+  left: 1% !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  position: fixed !important;
+}
+
+.image360test {
+
+
+}
 
 /* Team Section
 --------------------------------*/
@@ -979,4 +1005,12 @@ section {
   text-align: center;
   font-size: 13px;
   color: #ccc;
+}
+
+.view360footer {
+
+  position: fixed !important ;
+  width: 100% !important;
+  bottom: 0 !important;
+
 }
