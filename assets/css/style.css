@@ -1014,3 +1014,12 @@ html.a-fullscreen .a-canvas {
   bottom: 0 !important;
 
 }
+
+.generalfooter {
+
+  position: fixed !important ;
+  width: 100% !important;
+  bottom: 0 !important;
+
+}
+

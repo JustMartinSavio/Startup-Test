@@ -11,8 +11,9 @@
 
   <!-- JS Scripts -->
 
+  <script src="assets/js/changesource.js"></script>
   <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
-  
+
 
   <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
   <meta property="og:title" content="">
@@ -80,9 +81,7 @@
   </header><!-- End Header -->
 
   <body>
-    <a-assets>
-      <img id="360test" crossorigin src="assets/img/portfolio/360-test-cuevas.jpeg" alt="360viewer">
-    </a-assets>
+    
     <main id="main">
 
       <!-- ======= Breadcrumbs ======= -->
@@ -100,7 +99,7 @@
         </div>
       </section><!-- End Breadcrumbs -->
 
-      
+
 
       <!-- ======= Portfolio Details Section ======= -->
 
@@ -108,8 +107,12 @@
       <section id="portfolio-details" class="portfolio-details">
         <div class="container">
           <a-scene class="image360test">
-            <a-sky src="#360test" rotation="0 180 0"></a-sky>
-            </a-sphere>
+            <a-assets>
+              <img id="fauna" crossorigin src="assets/img/portfolio/360-test-fauna.jpeg" alt="360viewer">
+              <img id="cuevas" crossorigin src="assets/img/portfolio/360-test-cuevas.jpeg" alt="360viewer">
+            </a-assets>
+            <a-sky src='#fauna' id="imagen360"></a-sky>
+            
           </a-scene>
 
           <div class="row gy-4">
@@ -134,7 +137,7 @@
                   <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
                 </ul>
               </div>
-              <div class="portfolio-description">
+              <div class="portfolio-description" id="PortfolioDescription">
                 <h2>This is an example of portfolio detail</h2>
                 <p>
                   Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia.
@@ -158,13 +161,13 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-           <!-- <div class="copyright">
+          <!-- <div class="copyright">
             &copy; Copyright <strong>Gracias Ema por tanto</strong>. All Rights Reserved
           </div>
           <div class="credits">
             Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
           </div> -->
-         
+
         </div>
       </div>
     </div>
