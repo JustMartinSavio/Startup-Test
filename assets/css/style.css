@@ -479,7 +479,7 @@ section {
 
 .section-title {
   font-size: 32px;
-  color: #111;
+  color: #B482BF;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -501,7 +501,7 @@ section {
 /* Get Started Section
 --------------------------------*/
 #about {
-  background: #fff;
+  background: #230729;
   padding: 80px 0;
 }
 
@@ -525,11 +525,11 @@ section {
 }
 
 #about .about-content {
-  background: #fff;
+  background: #230729;
 }
 
 #about .about-title {
-  color: #333;
+  color: #604566;
   font-weight: 700;
   font-size: 28px;
 }
@@ -546,7 +546,7 @@ section {
 /* Services Section
 --------------------------------*/
 #services {
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/services-bg.jpg") fixed center center;
+  background: #230729;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
@@ -602,7 +602,7 @@ section {
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
-  background: #fff;
+  background: #230729;
   padding: 80px 0;
 }
 
@@ -797,7 +797,7 @@ html.a-fullscreen .a-canvas {
 /* Team Section
 --------------------------------*/
 #team {
-  background: #fff;
+  background: #230729;
   padding: 80px 0 60px 0;
 }
 
@@ -847,7 +847,7 @@ html.a-fullscreen .a-canvas {
 /* Contact Section
 --------------------------------*/
 #contact {
-  background: #f7f7f7;
+  background: #230729;
   padding: 80px 0 120px 0;
 }
 
@@ -991,7 +991,7 @@ html.a-fullscreen .a-canvas {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #111;
+  background: #423046;
   padding: 30px 0;
   color: #fff;
 }

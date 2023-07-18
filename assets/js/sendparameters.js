@@ -13,9 +13,10 @@ function sendParameters(a,b) {
     
   
     // Construct the URL with parameters
-    var url = 'http://127.0.0.1:5500/'+b+
+    var url = 'https://justmartinsavio.github.io/Startup-Test/'+b+
               '?image=' + encodeURIComponent(parameter1)
             //   '&image2=' + encodeURIComponent(parameter2);
+
   
     // Open the URL in a new tab or window
     window.open(url, '_blank');
